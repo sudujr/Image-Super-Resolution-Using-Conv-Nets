@@ -18,7 +18,7 @@ We trainied different architectures for generating Super Resolution Images on Go
 
 # References
 
-	\bibitem{SRCNN} Dong, Chao, et al., \href{https://arxiv.org/pdf/1501.00092.pdf}{Image super-resolution using deep convolutional networks.}, in IEEE transactions on pattern analysis and machine intelligence 38.2 (2015): 295-307.
+		\bibitem{SRCNN} Dong, Chao, et al., \href{https://arxiv.org/pdf/1501.00092.pdf}{Image super-resolution using deep convolutional networks.}, in IEEE transactions on pattern analysis and machine intelligence 38.2 (2015): 295-307.
 	
 	
 	\bibitem{DRRN} Tai, Ying, Jian Yang, and Xiaoming Liu., \href{https://openaccess.thecvf.com/content_cvpr_2017/papers/Tai_Image_Super-Resolution_via_CVPR_2017_paper.pdf}{Image super-resolution via the deep recursive residual network.}, in Proceedings of the IEEE conference on computer vision and pattern recognition. 2017.
@@ -33,15 +33,16 @@ We trainied different architectures for generating Super Resolution Images on Go
 	
 	\bibitem{GAN} Goodfellow, Ian, et al., \href{https://arxiv.org/pdf/1406.2661.pdf}{Generative adversarial nets.}, in Proceedings of Advances in neural information processing systems 27 (2014).	
 
-- Mirza, Mehdi, and Simon Osindero., \href{https://arxiv.org/pdf/1411.1784.pdf}{Conditional generative adversarial nets.}, in arXiv preprint arXiv:1411.1784 (2014).	
+	\bibitem{CGAN} Mirza, Mehdi, and Simon Osindero., \href{https://arxiv.org/pdf/1411.1784.pdf}{Conditional generative adversarial nets.}, in arXiv preprint arXiv:1411.1784 (2014).	
 	
-- Radford, Alec, Luke Metz, and Soumith Chintala., \href{https://arxiv.org/pdf/1511.06434.pdf}{Unsupervised representation learning with deep convolutional generative adversarial networks.}, in arXiv preprint arXiv:1511.06434 (2015).	
+	\bibitem{DCGAN} Radford, Alec, Luke Metz, and Soumith Chintala., \href{https://arxiv.org/pdf/1511.06434.pdf}{Unsupervised representation learning with deep convolutional generative adversarial networks.}, in arXiv preprint arXiv:1511.06434 (2015).	
 	
-- Agustsson, Eirikur, and Radu Timofte., \href{https://ieeexplore.ieee.org/document/8014884}{Ntire 2017 challenge on single image super-resolution: Dataset and study.}, in Proceedings of the IEEE conference on computer vision and pattern recognition workshops. 2017.
+
+	\bibitem{NITRE 2017} Agustsson, Eirikur, and Radu Timofte., \href{https://ieeexplore.ieee.org/document/8014884}{Ntire 2017 challenge on single image super-resolution: Dataset and study.}, in Proceedings of the IEEE conference on computer vision and pattern recognition workshops. 2017.
 	
-- Timofte, Radu, et al., \href{https://openaccess.thecvf.com/content_cvpr_2018_workshops/papers/w13/Timofte_NTIRE_2018_Challenge_CVPR_2018_paper.pdf}{Ntire 2018 challenge on single image super-resolution: Methods and results.}, in Proceedings of the IEEE conference on computer vision and pattern recognition workshops. 2018.
+	\bibitem{NITRE 2018} Timofte, Radu, et al., \href{https://openaccess.thecvf.com/content_cvpr_2018_workshops/papers/w13/Timofte_NTIRE_2018_Challenge_CVPR_2018_paper.pdf}{Ntire 2018 challenge on single image super-resolution: Methods and results.}, in Proceedings of the IEEE conference on computer vision and pattern recognition workshops. 2018.
 	
-- Ignatov, Andrey, et al., \href{https://openaccess.thecvf.com/content_ECCVW_2018/papers/11133/Ignatov_PIRM_Challenge_on_Perceptual_Image_Enhancement_on_Smartphones_Report_ECCVW_2018_paper.pdf}{Pirm challenge on perceptual image enhancement on smartphones: Report.}, in Proceedings of the European Conference on Computer Vision (ECCV) Workshops. 2018.
+	\bibitem{PIRM} Ignatov, Andrey, et al., \href{https://openaccess.thecvf.com/content_ECCVW_2018/papers/11133/Ignatov_PIRM_Challenge_on_Perceptual_Image_Enhancement_on_Smartphones_Report_ECCVW_2018_paper.pdf}{Pirm challenge on perceptual image enhancement on smartphones: Report.}, in Proceedings of the European Conference on Computer Vision (ECCV) Workshops. 2018.
 	
 	\bibitem{CutBlur} Han, Junlin, et al., \href{https://arxiv.org/pdf/2201.12078.pdf}{You Only Cut Once: Boosting Data Augmentation with a Single Cut.}, in arXiv preprint arXiv:2201.12078 (2022).
 
