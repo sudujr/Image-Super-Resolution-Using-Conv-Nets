@@ -16,6 +16,28 @@ We trainied different architectures for generating Super Resolution Images on Go
 - SRGAN Directory COntains Models for SRResNet and SRGAN
 - Results directorys contains few sample image outputs with PSNR and SSIM values for comparison of our models
 
+# Results
+
+<p float="center">
+  <img src="https://github.com/sudujr/Image-Super-Resolution-Using-Conv-Nets/blob/main/results/result-srcnn.png" width="100%" />
+
+</p>
+
+<p float="center">
+  <img src="https://github.com/sudujr/Image-Super-Resolution-Using-Conv-Nets/blob/main/results/result-drrn.png" width="100%" />
+
+</p>
+
+<p float="center">
+  <img src="https://github.com/sudujr/Image-Super-Resolution-Using-Conv-Nets/blob/main/results/result-srresnet.png" width="100%" />
+
+</p>
+
+<p float="center">
+  <img src="https://github.com/sudujr/Image-Super-Resolution-Using-Conv-Nets/blob/main/results/result-srgan.png" width="100%" />
+
+</p>
+
 # References
 
 		\bibitem{SRCNN} Dong, Chao, et al., \href{https://arxiv.org/pdf/1501.00092.pdf}{Image super-resolution using deep convolutional networks.}, in IEEE transactions on pattern analysis and machine intelligence 38.2 (2015): 295-307.
