@@ -27,16 +27,29 @@ Single Image Super-Resolution is a classical Computer Vision inverse mapping pro
 # Setup
 
 We trainied different architectures for generating Super Resolution Images on Google Colab with Tesla K80 with 12 GB RAM
+SetUp Instruction : 
 
-## Installation Instructions
-- Download Dataset using downloaddiv2k.py  | Thanks to https://github.com/Lornatang/SRGAN-PyTorch/blob/master/scripts/prepare_dataset.py for the script
-- Preporcess the data using DataPreprocessing.ipynb and augument.ipynb
-- To start training and testing our models we provide a single run_* ipyninb file in each directory which will be used for training, validation and testing purposes
+We trained differnt architectures for generating Super resolution images on google colab with Tesla K80 with 12gb ram. GPU is required for this project as we make use of mixed precision training, Gradient Scaling, GPU Cache clearing to accelerate the training process.
 
-# Code Structure
-- SRCNN Directory Contains Models for SRCNN and DRRN.
-- SRGAN Directory COntains Models for SRResNet and SRGAN
-- Results directorys contains few sample image outputs with PSNR and SSIM values for comparison of our models
+
+Installation Instruction | 
+
+- Download the dataset using downloaddiv2k.py.Thanks to https://github.com/Lornatang/SRGAN-PyTorch/blob/master/scripts/prepare_dataset.py for the script
+
+- Run DataPreProcessing.ipynb to split the data into train, test, validation set also to resize the image into (128, 128) for LR and (512, 512) for HR.
+
+- If you plan to run the model with data augumentation included. Run the DataPreprocessing.ipynb file 
+
+- For running differnt models. 
+    SRCNN and DRRN:
+         run the run_srcnn.ipynb inside SRCNN folder which is self contained for both training, validation and testing purposes.
+
+    SRResNet:
+         run the 541-srresnet.ipynb file from the SRGAN folder
+
+    SRGAN:
+         run the 541-srgan.ipynb file from the SRGAN folder.
+
 
 # Results
 
