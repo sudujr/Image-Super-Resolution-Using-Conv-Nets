@@ -1,7 +1,7 @@
 # Image-Super-Resolution-Using-Conv-Nets
 
 Single Image Super-Resolution is a classical Computer Vision inverse mapping problem that reconstructs/recovers a High Resolution (HR) image from a Low Resolution (LR) image. The solution to Super Resolution task is not unique. Modern Deep Learning Systems using Conv Nets have attained a large popularity in solving this task through generating super resolution patches which can be considered as generating a mapping from Low Resolution domain to Higher Resolution domain. Utilizing various deep CNN systems,in a supervised learning approach, we aim to reconstruct Higher Resolution (HR) images from Lower Resolution (LR) images. We make use of different criterion functions to have the best perceptual quality in the generate super resolution images. We have PSNR and SSIM metrics for evaluation of our model performance on unseen data.  The primary purpose of this project is to produce quality High Resolution images from their Low Resolution counterpart.
-
+```
 |_
   |_ SRCNN/
      |_ run_srcnn.ipynb
@@ -22,6 +22,7 @@ Single Image Super-Resolution is a classical Computer Vision inverse mapping pro
   |_ 541_psnr_ssim.ipynb.
   |_ results
   |_ README.md
+  ```
 
 # Setup
 
