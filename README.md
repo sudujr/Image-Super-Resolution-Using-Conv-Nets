@@ -2,6 +2,27 @@
 
 Single Image Super-Resolution is a classical Computer Vision inverse mapping problem that reconstructs/recovers a High Resolution (HR) image from a Low Resolution (LR) image. The solution to Super Resolution task is not unique. Modern Deep Learning Systems using Conv Nets have attained a large popularity in solving this task through generating super resolution patches which can be considered as generating a mapping from Low Resolution domain to Higher Resolution domain. Utilizing various deep CNN systems,in a supervised learning approach, we aim to reconstruct Higher Resolution (HR) images from Lower Resolution (LR) images. We make use of different criterion functions to have the best perceptual quality in the generate super resolution images. We have PSNR and SSIM metrics for evaluation of our model performance on unseen data.  The primary purpose of this project is to produce quality High Resolution images from their Low Resolution counterpart.
 
+|_
+  |_ SRCNN/
+     |_ run_srcnn.ipynb
+     |_ Arun_srcnn.ipynb
+     |_ model.py
+     |_ dataset.py
+     |_ Adataset.py
+     |_losses.py
+  |_ SRGAN/
+     |_ 541-srgan.ipynb
+     |_ 541-srresnet.ipynb
+     |_ model.py
+     |_ dataset.py
+     |_ losses.py
+  |_ downloaddiv2k.py
+  |_ augument.ipynb
+  |_ DataPreProcessing.ipynb
+  |_ 541_psnr_ssim.ipynb.
+  |_ results
+  |_ README.md
+
 # Setup
 
 We trainied different architectures for generating Super Resolution Images on Google Colab with Tesla K80 with 12 GB RAM
